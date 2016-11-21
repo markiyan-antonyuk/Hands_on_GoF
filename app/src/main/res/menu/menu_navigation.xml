@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/patterns_behavioral">
+        <menu>
+            <item
+                android:id="@+id/chain_of_resp"
+                android:title="@string/chain_of_resp" />
+            <item
+                android:id="@+id/command"
+                android:title="@string/command" />
+            <item
+                android:id="@+id/interpreter"
+                android:title="@string/interpreter" />
+            <item
+                android:id="@+id/iterator"
+                android:title="@string/iterator" />
+            <item
+                android:id="@+id/mediator"
+                android:title="@string/mediator" />
+            <item
+                android:id="@+id/memento"
+                android:title="@string/memento" />
+            <item
+                android:id="@+id/observer"
+                android:title="@string/observer" />
+            <item
+                android:id="@+id/state"
+                android:title="@string/state" />
+            <item
+                android:id="@+id/strategy"
+                android:title="@string/strategy" />
+            <item
+                android:id="@+id/template_method"
+                android:title="@string/template_method" />
+            <item
+                android:id="@+id/visitor"
+                android:title="@string/visitor" />
+        </menu>
+    </item>
+    <item android:title="@string/patterns_creational">
+        <menu>
+            <item
+                android:id="@+id/abstractFactory"
+                android:title="@string/abstract_factory" />
+            <item
+                android:id="@+id/builder"
+                android:title="@string/builder" />
+            <item
+                android:id="@+id/factory_method"
+                android:title="@string/factory_method" />
+            <item
+                android:id="@+id/prototype"
+                android:title="@string/prototype" />
+            <item
+                android:id="@+id/singleton"
+                android:title="@string/singleton" />
+        </menu>
+    </item>
+    <item android:title="@string/patterns_structural">
+        <menu>
+            <item
+                android:id="@+id/adapter"
+                android:title="@string/adapter" />
+            <item
+                android:id="@+id/bridge"
+                android:title="@string/bridge" />
+            <item
+                android:id="@+id/composite"
+                android:title="@string/composite" />
+            <item
+                android:id="@+id/decorator"
+                android:title="@string/decorator" />
+            <item
+                android:id="@+id/facade"
+                android:title="@string/facade" />
+            <item
+                android:id="@+id/flyweight"
+                android:title="@string/flyweight" />
+            <item
+                android:id="@+id/proxy"
+                android:title="@string/proxy" />
+        </menu>
+    </item>
+</menu>

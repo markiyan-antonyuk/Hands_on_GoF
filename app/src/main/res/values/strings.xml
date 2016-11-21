@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Hands on GoF</string>
+    <string name="toggle_code_visibility">Click on description to show/hide code sample</string>
+    <string name="search">Search</string>
+    <string name="pattern">Pattern</string>
+
+    <string name="patterns_behavioral">Behavioral</string>
+    <string name="chain_of_resp">Chain of Responsibility</string>
+    <string name="command">Command</string>
+    <string name="interpreter">Interpreter</string>
+    <string name="iterator">Iterator</string>
+    <string name="mediator">Mediator</string>
+    <string name="memento">Memento</string>
+    <string name="observer">Observer</string>
+    <string name="state">State</string>
+    <string name="strategy">Strategy</string>
+    <string name="template_method">Template Method</string>
+    <string name="visitor">Visitor</string>
+
+    <string name="patterns_creational">Creational</string>
+    <string name="abstract_factory">Abstract Factory</string>
+    <string name="builder">Builder</string>
+    <string name="factory_method">Factory Method</string>
+    <string name="prototype">Prototype</string>
+    <string name="singleton">Singleton</string>
+
+    <string name="patterns_structural">Structural</string>
+    <string name="adapter">Adapter</string>
+    <string name="bridge">Bridge</string>
+    <string name="composite">Composite</string>
+    <string name="decorator">Decorator</string>
+    <string name="facade">Facade</string>
+    <string name="flyweight">Flyweight</string>
+    <string name="proxy">Proxy</string>
+
+    <string-array name="search_hints">
+        <item>@string/chain_of_resp</item>
+        <item>@string/command</item>
+        <item>@string/interpreter</item>
+        <item>@string/iterator</item>
+        <item>@string/mediator</item>
+        <item>@string/memento</item>
+        <item>@string/observer</item>
+        <item>@string/state</item>
+        <item>@string/strategy</item>
+        <item>@string/template_method</item>
+        <item>@string/visitor</item>
+        <item>@string/abstract_factory</item>
+        <item>@string/builder</item>
+        <item>@string/factory_method</item>
+        <item>@string/prototype</item>
+        <item>@string/singleton</item>
+        <item>@string/adapter</item>
+        <item>@string/bridge</item>
+        <item>@string/composite</item>
+        <item>@string/decorator</item>
+        <item>@string/facade</item>
+        <item>@string/flyweight</item>
+        <item>@string/prototype</item>
+    </string-array>
+</resources>
