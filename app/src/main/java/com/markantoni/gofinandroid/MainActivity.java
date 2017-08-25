@@ -1,7 +1,9 @@
 package com.markantoni.gofinandroid;
 
 import android.app.SearchManager;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
@@ -83,7 +85,12 @@ public class MainActivity extends AppCompatActivity implements IMainView, Naviga
     public void setPatternsList(List<IPatternPresenter> patterns) {
         mPagerAdapter = new PatternsPagerAdapter(getSupportFragmentManager(), patterns);
         mViewPager.setAdapter(mPagerAdapter);
-        showHint();
+        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
+        boolean isFirstRun = sharedPreferences.getBoolean(key.firstrun, false);
+        if (!isFirstRun) {
+            sharedPreferences.edit().putBoolean(key.firstrun, true).apply();
+            showHint();
+        }
     }
 
     @Override
