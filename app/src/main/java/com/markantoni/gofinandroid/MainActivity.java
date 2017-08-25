@@ -86,10 +86,10 @@ public class MainActivity extends AppCompatActivity implements IMainView, Naviga
         mPagerAdapter = new PatternsPagerAdapter(getSupportFragmentManager(), patterns);
         mViewPager.setAdapter(mPagerAdapter);
         SharedPreferences sharedPreferences= PreferenceManager.getDefaultSharedPreferences(this);
-        boolean isFirstRun = sharedPreferences.getBoolean("firstrun", false);
+        boolean isFirstRun = sharedPreferences.getBoolean(key.firstrun, false);
         if (!isFirstRun) {
             showHint();
-            sharedPreferences.edit().putBoolean("firstrun", true).apply();
+            sharedPreferences.edit().putBoolean(key.firstrun, true).apply();
         }
     }
 
